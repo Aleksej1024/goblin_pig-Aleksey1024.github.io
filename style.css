@@ -1,0 +1,54 @@
+
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+    box-sizing: border-box;
+	}
+    
+      
+body {
+        
+        background-color: #e5e5e5;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        margin: 0;
+      }
+      
+.container{
+    background-image: url(img/pole.png);
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    display: flex; 
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pig{
+    
+    width: 50vh;
+    height: 45%;
+    background-size: cover;
+    background-image: url(img/pig.jpg);
+    background-position: center center;
+    cursor: grab;
+    border-radius: 20px;
+    box-shadow: 0 9px #999;
+    
+}
+
+.pig:hover{
+    width: 53vh;
+    height: 48%;
+    transition-duration: .2s;
+}
+.pig:active {
+    width: 50vh;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
